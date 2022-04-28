@@ -41,3 +41,7 @@ class Notas():
             mediana = caracteristica[rangoPython]
 
         return [mediana, rango]
+        
+    def calculoModa(self):
+        moda = Counter(self.caracteristica)
+        return moda
